@@ -1,9 +1,13 @@
-import './App.css';
-import "bootstrap/dist/css/bootstrap.min.css";
+import React from "react";
+import "./App.css";
+import Board from "../src/components/Board";
 
 function App() {
   return (
-    <h2>Portfolio Project</h2>
+    <div className="App">
+      <h1>Minesweeper</h1>
+      <Board />
+    </div>
   );
 }
 
